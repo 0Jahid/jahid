@@ -16,6 +16,7 @@ const About = () => {
           </div>
         </div>
         {/* IMAGE ENDS */}
+
         {/* INFO STARTS */}
         <div>
           <h2>
@@ -59,7 +60,7 @@ const About = () => {
               <li>
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
-                    <span>Langages :</span>
+                    <span>Languages :</span>
                     <span>English</span>
                   </span>
                 </span>
@@ -104,6 +105,7 @@ const About = () => {
         {/* INFO ENDS */}
       </div>
       {/* INFO HOLDER ENDS */}
+
       {/* SKILLS STARTS */}
       <div className="skills flex-column-mobile">
         {/* TITLE STARTS */}
@@ -119,82 +121,70 @@ const About = () => {
           {/* MAIN TITLE ENDS */}
         </div>
         {/* TITLE ENDS */}
+
         <div className="skills-content">
           <div>
-            {/* SKILL ITEM STARTS */}
+            {/* SKILL ITEM */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
-              <span>
-                <i className="devicon-wordpress-plain" />
-              </span>
+              <span><i className="devicon-kotlin-plain" /></span>
               <h4>Kotlin</h4>
             </div>
-            {/* SKILL ITEM ENDS */}
-            {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-up-animation fadeInRight wow">
-              <span>
-                <i className="devicon-jquery-plain" />
-              </span>
+              <span><i className="devicon-java-plain" /></span>
               <h4>Java</h4>
             </div>
-            {/* SKILL ITEM ENDS */}
           </div>
+
           <div>
-            {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
-              <span>
-                <i className="devicon-angularjs-plain" />
-              </span>
-              <h4>MVVM Architecture</h4>
+              <span><i className="devicon-android-plain" /></span>
+              <h4>Android SDK</h4>
             </div>
-            {/* SKILL ITEM ENDS */}
-            {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-up-animation fadeInRight wow">
-              <span>
-                <i className="devicon-drupal-plain" />
-              </span>
+              <span><i className="fa-solid fa-mobile-screen" /></span>
               <h4>Jetpack Compose</h4>
             </div>
-            {/* SKILL ITEM ENDS */}
           </div>
+
           <div>
-            {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
-              <span>
-                <i className="devicon-react-plain" />
-              </span>
-              <h4>Dependency Injections</h4>
+              <span><i className="fa-solid fa-database" /></span>
+              <h4>Room</h4>
             </div>
-            {/* SKILL ITEM ENDS */}
-            {/* SKILL ITEM STARTS */}
+            <div className="animated-layer fade-in-up-animation fadeInRight wow">
+              <span><i className="fa-solid fa-arrows-spin" /></span>
+              <h4>Coroutine</h4>
+            </div>
+          </div>
+
+          <div>
+            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+              <span><i className="fa-solid fa-diagram-project" /></span>
+              <h4>MVVM</h4>
+            </div>
+            <div className="animated-layer fade-in-up-animation fadeInRight wow">
+              <span><i className="fa-solid fa-syringe" /></span>
+              <h4>Dagger Hilt</h4>
+            </div>
+          </div>
+
+          <div>
+            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+              <span><i className="fa-solid fa-plug" /></span>
+              <h4>Retrofit</h4>
+            </div>
             <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
-                <i className="devicon-docker-plain" />
+                <i className="devicon-git-plain" style={{ marginRight: '8px' }} />
+                <i className="devicon-github-original" />
               </span>
-              <h4>Room DB</h4>
+              <h4>Git & GitHub</h4>
             </div>
-            {/* SKILL ITEM ENDS */}
-          </div>
-          <div>
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
-              <span>
-                <i className="devicon-nodejs-plain" />
-              </span>
-              <h4>Firebase</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
-              <span>
-                <i className="devicon-sass-plain" />
-              </span>
-              <h4>API</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
           </div>
         </div>
       </div>
       {/* SKILLS ENDS */}
+
       {/* RESUME STARTS */}
       <div className="resume flex-column-mobile">
         {/* TITLE STARTS */}
@@ -210,6 +200,7 @@ const About = () => {
           {/* MAIN TITLE ENDS */}
         </div>
         {/* TITLE ENDS */}
+
         {/* TIMELINE STARTS */}
         <div className="timeline">
           <ol className="animated-layer fade-in-animation">
@@ -217,14 +208,14 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Project Manager</h4>
+                  <h4>SSC</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2019 - Now</span>
+                    <span>2016</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
-                    <span>Adobe Company</span>
+                    <span>APBn School & College</span>
                   </p>
                 </div>
               </div>
@@ -235,31 +226,32 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Web Developer</h4>
+                  <h4>HSC</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2010 - 2015</span>
+                    <span>2018</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
-                    <span>Facebook</span>
+                    <span>Azizul Haque College</span>
                   </p>
                 </div>
               </div>
             </li>
             {/* TIMELINE ITEM ENDS */}
+
             {/* TIMELINE ITEM STARTS */}
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="education">
-                  <h4>Bachelor Degree</h4>
+                  <h4>Bachelor of Science</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>1999</span>
+                    <span>2025</span>
                   </p>
                   <p>
                     <i className="fa-solid fa-building-columns" />
-                    <span>Berlin High School</span>
+                    <span>North South University</span>
                   </p>
                 </div>
               </div>
@@ -271,12 +263,10 @@ const About = () => {
         {/* TIMELINE ENDS */}
       </div>
       {/* RESUME ENDS */}
-      <img
-        alt=""
-        className="separator hide-mobile"
-        src="assets/separator.png"
-      />
+
+      <img alt="" className="separator hide-mobile" src="assets/separator.png" />
     </section>
   );
 };
+
 export default About;
