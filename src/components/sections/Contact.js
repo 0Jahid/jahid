@@ -56,11 +56,6 @@ const Contact = () => {
                   <i className="fa-brands fa-github" />
                 </a>
               </li>
-              <li>
-  <a href="https://wa.me/8801521115218" target="_blank" rel="noopener noreferrer">
-    <i className="fa-brands fa-whatsapp" />
-  </a>
-</li>
 
               <li>
                 <a href="https://www.linkedin.com/in/imjahidhasan/">
