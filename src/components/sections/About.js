@@ -36,12 +36,20 @@ const About = () => {
               <li>
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
+                    
+                    <span>Recent Computer Science graduate with proficiency in Kotlin and<br /> Java, passionate  about building user-friendly Android applications. <br />Developed few personal and  academic projects. Eager to take any<br /> challenging assignments in Android development.</span>
+                  </span>
+                </span>
+              </li>
+              {/* <li>
+                <span>
+                  <span className="animated-layer fade-in-up-animation fadeInUp wow">
                     <span>Age :</span>
                     <span>27 Years</span>
                   </span>
                 </span>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
                     <span>Nationality :</span>
@@ -98,7 +106,7 @@ const About = () => {
                     <span>steven.walker</span>
                   </span>
                 </span>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
