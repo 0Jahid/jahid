@@ -22,7 +22,7 @@ const Contact = () => {
             <i className="fa fa-phone" />
             <p>
               <span className="small-text">phone</span>
-              +216 21 184 010
+              +8801866900766
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
@@ -31,7 +31,7 @@ const Contact = () => {
             <i className="fa fa-location-dot" />
             <p>
               <span className="small-text">address</span>
-              London, England
+              Bashundhara RA, Dhaka, Bangladesh
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
@@ -42,7 +42,7 @@ const Contact = () => {
             <i className="fa fa-envelope" />
             <p>
               <span className="small-text">email</span>
-              contact@steven.net
+              to.jahidhassan@gmail.com
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
@@ -52,25 +52,22 @@ const Contact = () => {
             <span className="small-text">follow me</span>
             <ul className="social">
               <li>
-                <a href="#">
+                <a href="https://github.com/0Jahid">
                   <i className="fa-brands fa-github" />
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <i className="fa-brands fa-twitter" />
-                </a>
-              </li>
+  <a href="https://wa.me/8801521115218" target="_blank" rel="noopener noreferrer">
+    <i className="fa-brands fa-whatsapp" />
+  </a>
+</li>
+
               <li>
-                <a href="#">
-                  <i className="fa-brands fa-dribbble" />
+                <a href="https://www.linkedin.com/in/imjahidhasan/">
+                  <i className="fa-brands fa-linkedin" />
                 </a>
               </li>
-              <li>
-                <a href="#">
-                  <i className="fa-brands fa-facebook" />
-                </a>
-              </li>
+
             </ul>
           </div>
           {/* CONTACT ITEM ENDS */}

@@ -27,11 +27,11 @@ const Header = () => {
         </div>
         {/* MENU ENDS */}
         {/* FREELANCE STARTS */}
-        <div className="mail">
+        {/* <div className="mail">
           <p>
-            Email :<span> jahid.hasan19@northsouth.edu</span>
+            Email :<span> to.jahidhassan@gmail.com</span>
           </p>
-        </div>
+        </div> */}
         {/* FREELANCE ENDS */}
       </div>
       {/* Desktop Menu Ends */}
