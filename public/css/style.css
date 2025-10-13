@@ -523,6 +523,65 @@ header .header-inner .mail p {
   font-size: 18px;
   font-weight: 500;
 }
+/* GitHub Button Styles */
+header .header-inner .github-btn a {
+  text-decoration: none;
+}
+
+header .header-inner .github-btn button {
+  background: transparent;
+  position: relative;
+  padding: 3.75px 11.25px; /* 75% of 5px 15px */
+  display: flex;
+  align-items: center;
+  font-size: 12.75px; /* 75% of 17px */
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0.75px solid rgb(255, 255, 255); /* 75% of 1px */
+  border-radius: 18.75px; /* 75% of 25px */
+  outline: none;
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+}
+
+header .header-inner .github-btn button span {
+  margin: 7.5px; /* 75% of 10px */
+}
+
+header .header-inner .github-btn button svg {
+  width: 21px; /* 75% of 28px */
+  height: 21px; /* 75% of 28px */
+}
+
+header .header-inner .github-btn button::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: "";
+  border-radius: 50%;
+  display: block;
+  width: 15em; /* 75% of 20em */
+  height: 15em; /* 75% of 20em */
+  left: -3.75em; /* 75% of -5em */
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
+}
+
+header .header-inner .github-btn button:hover {
+  color: #0b0b0b;
+  border: 0.75px solid rgb(255, 255, 255);
+}
+
+header .header-inner .github-btn button:hover::before {
+  box-shadow: inset 0 0 0 7.5em rgb(255, 255, 255); /* 75% of 10em */
+}
 
 header .mobile-menu {
   display: none;
