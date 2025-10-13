@@ -19,19 +19,20 @@ const Contact = () => {
         <div>
           {/* CONTACT ITEM STARTS */}
           <div className="animated-layer fade-in-down-animation fadeInUp wow">
-            <i className="fa fa-phone" />
+            <i className="fa fa-phone fa-shake" />
             <p>
               <span className="small-text">phone</span>
-              +216 21 184 010
+              +8801866900766
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
           {/* CONTACT ITEM STARTS */}
           <div className="animated-layer fade-in-up-animation fadeInUp wow">
-            <i className="fa fa-location-dot" />
+            {/* <i className="fa fa-location-dot" /> */}
+            <i class="fa-solid fa-location-dot fa-bounce"></i>
             <p>
               <span className="small-text">address</span>
-              London, England
+              Bashundhara RA, Dhaka, Bangladesh
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
@@ -39,38 +40,30 @@ const Contact = () => {
         <div>
           {/* CONTACT ITEM STARTS */}
           <div className="animated-layer fade-in-down-animation fadeInUp wow">
-            <i className="fa fa-envelope" />
+            <i className="fa fa-envelope fa-beat-fade" />
             <p>
               <span className="small-text">email</span>
-              contact@steven.net
+              to.jahidhassan@gmail.com
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
           {/* CONTACT ITEM STARTS */}
           <div className="animated-layer fade-in-up-animation fadeInUp wow">
-            <i className="fa fa-share-nodes" />
-            <span className="small-text">follow me</span>
+            <i className="fa fa-share-nodes fa-spin" />
+            <span className="small-text">Find me </span>
             <ul className="social">
               <li>
-                <a href="#">
+                <a href="https://github.com/0Jahid">
                   <i className="fa-brands fa-github" />
                 </a>
               </li>
+
               <li>
-                <a href="#">
-                  <i className="fa-brands fa-twitter" />
+                <a href="https://www.linkedin.com/in/imjahidhasan/">
+                  <i className="fa-brands fa-linkedin" />
                 </a>
               </li>
-              <li>
-                <a href="#">
-                  <i className="fa-brands fa-dribbble" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa-brands fa-facebook" />
-                </a>
-              </li>
+
             </ul>
           </div>
           {/* CONTACT ITEM ENDS */}
