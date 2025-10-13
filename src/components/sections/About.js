@@ -56,80 +56,63 @@ const About = () => {
           </h3>
           {/* MAIN TITLE ENDS */}
         </div>
-        {/* TITLE ENDS */}
+                {/* TITLE ENDS */}
         <div className="skills-content">
-          <div>
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
-              <span>
-                <i className="devicon-wordpress-plain" />
-              </span>
-              <h4>WordPress</h4>
+            {/* Mobile App Developer Skills - concise and grouped */}
+            <div>
+              <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+                <span><i className="devicon-flutter-plain" /></span>
+                <h4>Cross-Platform Flutter & Dart</h4>
+              </div>
+              <div className="animated-layer fade-in-up-animation fadeInRight wow">
+                <span><i className="devicon-android-plain" /></span>
+                <h4>Native Android Java & Kotlin</h4>
+              </div>
             </div>
-            {/* SKILL ITEM ENDS */}
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
-              <span>
-                <i className="devicon-jquery-plain" />
-              </span>
-              <h4>jQuery</h4>
+            <div>
+              <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+                <span>
+            <i class="fa-solid fa-database"></i>
+          </span>
+                <h4>Backend Remote & Local</h4>
+              </div>
+              <div className="animated-layer fade-in-up-animation fadeInRight wow">
+                <span><i className="devicon-git-plain" /></span>
+                <h4>Git & GitHub</h4>
+              </div>
             </div>
-            {/* SKILL ITEM ENDS */}
-          </div>
-          <div>
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
-              <span>
-                <i className="devicon-angularjs-plain" />
-              </span>
-              <h4>Angular JS</h4>
+            <div>
+              <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+                <span><i class="fa-solid fa-bars-progress"></i></span>
+                <h4>State Management</h4>
+              </div>
+              <div className="animated-layer fade-in-up-animation fadeInRight wow">
+                <span><i class="fa-solid fa-sitemap"></i></span>
+                <h4>Clean Architecture</h4>
+              </div>
             </div>
-            {/* SKILL ITEM ENDS */}
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
-              <span>
-                <i className="devicon-drupal-plain" />
-              </span>
-              <h4>Drupal</h4>
+            <div>
+              <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+                <span>
+            <i class="fa-solid fa-s"></i>
+          </span>
+                <h4>SOLID Principles</h4>
+              </div>
+              <div className="animated-layer fade-in-up-animation fadeInRight wow">
+                <span><i class="fa-solid fa-syringe"></i></span>
+                <h4>Dependency Injection</h4>
+              </div>
             </div>
-            {/* SKILL ITEM ENDS */}
-          </div>
-          <div>
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
-              <span>
-                <i className="devicon-react-plain" />
-              </span>
-              <h4>React JS</h4>
+            <div>
+              <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+                <span><i className="devicon-javascript-plain" /></span>
+                <h4>RESTful API</h4>
+              </div>
+              <div className="animated-layer fade-in-up-animation fadeInRight wow">
+                <span><i class="fa-solid fa-bars-staggered"></i></span>
+                <h4>MVVM</h4>
+              </div>
             </div>
-            {/* SKILL ITEM ENDS */}
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
-              <span>
-                <i className="devicon-docker-plain" />
-              </span>
-              <h4>Docker</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
-          </div>
-          <div>
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
-              <span>
-                <i className="devicon-nodejs-plain" />
-              </span>
-              <h4>Node JS</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
-              <span>
-                <i className="devicon-sass-plain" />
-              </span>
-              <h4>Sass</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
-          </div>
         </div>
       </div>
       {/* SKILLS ENDS */}
