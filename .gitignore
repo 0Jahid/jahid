@@ -1,0 +1,48 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js build output
+.next/
+out/
+.build/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Cache and build
+.cache/
+dist/
+.temp/
+
+# Deployment
+.vercel/
+.now/
+.netlify/
+
+# Misc
+*.swp
