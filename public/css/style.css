@@ -639,34 +639,36 @@ header .mobile-menu {
 
 .about .infos {
   display: flex;
-  margin: 45px 0 0 100px;
+  margin: 45px 0 0 40px;
   white-space: nowrap;
 }
 
+.about .infos ul {
+  display: inline;
+}
+
 .about .infos ul li {
-  line-height: 44px;
+  display: inline;
   position: relative;
+}
+
+.about .infos ul li:after {
+  content: " ";
 }
 
 .about .infos ul li > span,
 .about .infos ul li > span > span {
-  overflow: hidden;
-  display: block;
-  white-space: nowrap;
+  display: inline;
+  white-space: normal;
   position: relative;
 }
 
 .about .infos ul li > span > span {
-  padding-left: 30px;
+  padding-left: 0;
 }
 
 .about .infos ul li > span > span:before {
-  position: absolute;
-  font-family: "FontAwesome";
-  left: 0;
-  top: 1px;
-  font-size: 8px;
-  content: "\f111";
+  display: none;
 }
 
 .about .infos ul li > span > span span:first-child {
@@ -701,7 +703,7 @@ header .mobile-menu {
 }
 
 .about .infos ul:nth-child(2) {
-  margin-left: 75px;
+  margin-left: 0;
 }
 
 /* Skills */
