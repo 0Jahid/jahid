@@ -576,11 +576,11 @@ header .header-inner .github-btn button::before {
 
 header .header-inner .github-btn button:hover {
   color: #0b0b0b;
-  border: 0.75px solid rgb(255, 255, 255);
+  border: 0.75px solid #f72b1c;
 }
 
 header .header-inner .github-btn button:hover::before {
-  box-shadow: inset 0 0 0 7.5em rgb(255, 255, 255); /* 75% of 10em */
+  box-shadow: inset 0 0 0 7.5em #f72b1c; /* 75% of 10em */
 }
 
 header .mobile-menu {

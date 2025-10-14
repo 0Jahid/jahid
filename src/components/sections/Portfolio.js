@@ -31,33 +31,40 @@ const Portfolio = () => {
           <div className="main-content">
             <img
               className="img-fluid"
-              src="assets/portfolio/project-1.jpg"
+              src="assets/portfolio/brewcart.jpg"
               alt="Image Project"
             />
           </div>
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           <div className="details">
-            <h4>Image Project</h4>
+            <h4>Brew Cart</h4>
             <div>
               <ul>
                 <li>
                   <span>
                     <i className="fa-regular fa-file-lines" /> Project :
                   </span>
-                  <span>Website</span>
+                  <span>Mobile App(Flutter)</span>
                 </li>
                 <li>
                   <span>
                     <i className="fa-solid fa-code-branch" /> Tech Stack :
                   </span>
-                  <span>WordPress</span>
+                  <span>Flutter ,</span>
+                  <span>Dart ,</span>
+                  <span>Firebase ,<br /></span>
+                  <span>Stripe ,</span>
+                  <span>BLoC ,</span>
+                  <span>Git ,</span>
+                  <span>GoRouter</span>
+            
                 </li>
               </ul>
             </div>
-            <a href="#" target="_blank" className="custom-btn">
+            <a href="https://github.com/0Jahid/brew_cart" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                Preview <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
@@ -114,13 +121,16 @@ const Portfolio = () => {
               className="swiper swiper-portfolio-item"
             >
               <SwiperSlide className="swiper-slide">
-                <img src="assets/portfolio/project-2.jpg" title="img" />
+                <img src="assets/portfolio/rz1.jpg" title="img" />
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
-                <img src="assets/portfolio/project-3.jpg" title="img" />
+                <img src="assets/portfolio/rz2.jpg" title="img" />
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
-                <img src="assets/portfolio/project-1.jpg" title="img" />
+                <img src="assets/portfolio/rz3.jpg" title="img" />
+              </SwiperSlide>
+                <SwiperSlide className="swiper-slide">
+                <img src="assets/portfolio/rz4.jpg" title="img" />
               </SwiperSlide>
               <div className="swiper-pagination" />
             </Swiper>
@@ -128,26 +138,32 @@ const Portfolio = () => {
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           <div className="details">
-            <h4>Slider Project</h4>
+            <h4>RideZO</h4>
             <div>
               <ul>
                 <li>
                   <span>
                     <i className="fa-regular fa-file-lines" /> Project :
                   </span>
-                  <span>Mobile App</span>
+                  <span>Mobile App(Flutter)</span>
                 </li>
                 <li>
                   <span>
                     <i className="fa-solid fa-code-branch" /> Tech Stack :
                   </span>
-                  <span>React JS</span>
+                  <span>Flutter ,</span>
+                  <span>Dart ,</span>
+                  <span>Firebase ,<br /></span>
+                  <span>Provider ,</span>
+                  <span>MVVM Pattern ,</span>
+                  <span>Git ,</span>
+
                 </li>
               </ul>
             </div>
-            <a href="#" target="_blank" className="custom-btn">
+            <a href="https://github.com/0Jahid/RideZO_App-main" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                Preview <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
@@ -173,14 +189,14 @@ const Portfolio = () => {
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           <div className="details">
-            <h4>External Link</h4>
+            <h4>Shopping App</h4>
             <div>
               <ul>
                 <li>
                   <span>
                     <i className="fa-regular fa-file-lines" /> Project :
                   </span>
-                  <span>Advertising</span>
+                  <span>Mobile App(Java)</span>
                 </li>
                 <li>
                   <span>
