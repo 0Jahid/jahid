@@ -49,19 +49,7 @@ const Portfolio = () => {
                 </li>
                 <li>
                   <span>
-                    <i className="fa-regular fa-user" /> Client :
-                  </span>
-                  <span>Envato</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-regular fa-hourglass" /> Duration :
-                  </span>
-                  <span>3 months</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                    <i className="fa-solid fa-code-branch" /> Tech Stack :
                   </span>
                   <span>WordPress</span>
                 </li>
@@ -102,19 +90,7 @@ const Portfolio = () => {
                 </li>
                 <li>
                   <span>
-                    <i className="fa-regular fa-user" /> Client :
-                  </span>
-                  <span>Videohive</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-regular fa-hourglass" /> Duration :
-                  </span>
-                  <span>8 months</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                    <i className="fa-solid fa-code-branch" /> Tech Stack :
                   </span>
                   <span>After Effects</span>
                 </li>
@@ -163,19 +139,7 @@ const Portfolio = () => {
                 </li>
                 <li>
                   <span>
-                    <i className="fa-regular fa-user" /> Client :
-                  </span>
-                  <span>Codecanyon</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-regular fa-hourglass" /> Duration :
-                  </span>
-                  <span>3 months</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                    <i className="fa-solid fa-code-branch" /> Tech Stack :
                   </span>
                   <span>React JS</span>
                 </li>
@@ -220,19 +184,7 @@ const Portfolio = () => {
                 </li>
                 <li>
                   <span>
-                    <i className="fa-regular fa-user" /> Client :
-                  </span>
-                  <span>Envato</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-regular fa-hourglass" /> Duration :
-                  </span>
-                  <span>1 month</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                    <i className="fa-solid fa-code-branch" /> Tech Stack :
                   </span>
                   <span>Adobe Premiere</span>
                 </li>

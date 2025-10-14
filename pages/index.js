@@ -23,7 +23,7 @@ const Index = () => {
             <About />
             <Separator type={"down"} />
             <Portfolio />
-            <Separator type={"down"} />
+            <Separator type={"up"} />
             <Contact />
             <Separator type={"down"} />
             <Copyright />
