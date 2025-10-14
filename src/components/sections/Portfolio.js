@@ -26,55 +26,7 @@ const Portfolio = () => {
         data-wow-offset={200}
       >
         {/* PORTFOLIO ITEM STARTS */}
-        <SwiperSlide className="single-item swiper-slide">
-          {/* ITEM MAIN CONTENT STARTS */}
-          <div className="main-content">
-            <img
-              className="img-fluid"
-              src="assets/portfolio/project-1.jpg"
-              alt="Image Project"
-            />
-          </div>
-          {/* ITEM MAIN CONTENT ENDS */}
-          {/* ITEM DETAILS STARTS */}
-          <div className="details">
-            <h4>Image Project</h4>
-            <div>
-              <ul>
-                <li>
-                  <span>
-                    <i className="fa-regular fa-file-lines" /> Project :
-                  </span>
-                  <span>Website</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-regular fa-user" /> Client :
-                  </span>
-                  <span>Envato</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-regular fa-hourglass" /> Duration :
-                  </span>
-                  <span>3 months</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-solid fa-code-branch" /> Frameworks :
-                  </span>
-                  <span>WordPress</span>
-                </li>
-              </ul>
-            </div>
-            <a href="#" target="_blank" className="custom-btn">
-              <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
-              </span>
-            </a>
-          </div>
-          {/* ITEM DETAILS ENDS */}
-        </SwiperSlide>
+
         {/* PORTFOLIO ITEM ENDS */}
         {/* PORTFOLIO ITEM STARTS */}
         <SwiperSlide className="single-item swiper-slide">
