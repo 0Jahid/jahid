@@ -32,10 +32,15 @@ const About = () => {
           </h2>
           <div className="infos">
             <p className="animated-layer fade-in-up-animation fadeInUp wow">
-              Steven Walker is a passionate developer based in London,<br/> 
-              fluent in English, and open to new opportunities. With a strong <br/> 
-              foundation in modern web technologies and a collaborative mindset, <br/> 
-              he is eager to contribute to innovative projects and grow as a professional.
+
+              I am a passionate Mobile App Developer with expertise in building intuitive and<br/> 
+              efficient applications for both native Android (Kotlin/Java) and cross-platform<br/> 
+              (Flutter/Dart). My journey in tech began in my hometown of Bogura, where I<br/> 
+              completed my schooling before pursuing a Bachelor of Science in Computer Science<br/> 
+              and Enge from North South University. I have hands-on experience developing full<br/> 
+              -stackprojects using Firebase, implementing robust state management, and RESTful<br/> 
+              APIs across both platforms. I am always seeking challenging opportunities to<br/>  
+              create high-quality mobile solutions that make a difference.
             </p>
           </div>
         </div>
