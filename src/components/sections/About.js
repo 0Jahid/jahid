@@ -192,9 +192,22 @@ const About = () => {
             {/* TIMELINE ITEM ENDS */}
             {/* TIMELINE ITEM STARTS */}
             <li>
+              
               <div className="animated-layer fade-in-up-animation fadeInUp wow">
                 <div className="education">
-                  <h4>Udemy</h4>
+                  <h4>Udemy         <a
+          href="https://udemy-certificate.s3.amazonaws.com/image/UC-b9fec707-9d8b-4d77-bca9-d0a923a23742.jpg"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            textDecoration: "none",
+            color: "hsla(211, 95%, 31%, 1.00)",
+            fontSize: "0.85rem",
+          }}
+        >
+          (cirtificate)
+        </a></h4>
+                  
                   <p>
                     <i class="fa fa-globe" aria-hidden="true"></i>
                     <span>Android & Kotlin</span>
@@ -203,6 +216,7 @@ const About = () => {
                     <i className="fa-regular fa-clock" />
                     <span>26 April 2025</span>
                   </p>
+                  
                 </div>
               </div>
             </li>
@@ -211,7 +225,20 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="education">
-                  <h4>Udemy</h4>
+                  <h4>Udemy
+                    <a
+          href="https://udemy-certificate.s3.amazonaws.com/image/UC-7641d292-a931-4832-a18a-01fbf72d280f.jpg"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            textDecoration: "none",
+            color: "hsla(211, 95%, 31%, 1.00)",
+            fontSize: "0.85rem",
+          }}
+        >
+          (cirtificate)
+        </a>
+                  </h4>
                   <p>
                    <i class="fa fa-globe" aria-hidden="true"></i>
                     <span>Flutter & Dart</span>
