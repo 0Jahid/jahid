@@ -78,32 +78,27 @@ const Portfolio = () => {
             <div className="videocontainer">
               <iframe
                 className="youtube-video"
-                src="https://www.youtube.com/embed/AqcjdkPMPJA?enablejsapi=1&version=3&playerapiid=ytplayer"
-                allowFullScreen=""
+                src="https://www.youtube.com/embed/zY1nC9CC_rE?si=1sR2A-qhev-iglGS"
+                allowFullScreen="false"
+                
               />
             </div>
           </div>
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           <div className="details">
-            <h4>Youtube Project</h4>
+            <h4>Brew Cart & RizeZO </h4>
             <div>
               <ul>
                 <li>
                   <span>
                     <i className="fa-regular fa-file-lines" /> Project :
                   </span>
-                  <span>Short Film</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-solid fa-code-branch" /> Tech Stack :
-                  </span>
-                  <span>After Effects</span>
+                  <span>App Demos</span>
                 </li>
               </ul>
             </div>
-            <a href="#" target="_blank" className="custom-btn">
+            <a href="https://youtu.be/zY1nC9CC_rE" target="_blank" className="custom-btn">
               <span>
                 preview <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
@@ -153,10 +148,10 @@ const Portfolio = () => {
                   </span>
                   <span>Flutter ,</span>
                   <span>Dart ,</span>
-                  <span>Firebase ,<br /></span>
-                  <span>Provider ,</span>
+                  <span>Firebase ,</span>
+                  <span>Provider ,<br /></span>
                   <span>MVVM Pattern ,</span>
-                  <span>Git ,</span>
+                  <span>Git</span>
 
                 </li>
               </ul>
@@ -202,7 +197,12 @@ const Portfolio = () => {
                   <span>
                     <i className="fa-solid fa-code-branch" /> Tech Stack :
                   </span>
-                  <span>Adobe Premiere</span>
+                  <span>Kotlin ,</span>
+                  <span>Jetpack Compose ,</span>
+                  <span>Firebase ,<br /></span>
+                  <span>Dagger Hilt ,</span>
+                  <span>MVVM Pattern ,</span>
+                  <span>Coroutines ,</span>
                 </li>
               </ul>
             </div>
